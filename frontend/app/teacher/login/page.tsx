@@ -6,7 +6,7 @@ import { Lock, Loader2, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://qcm-students-production.up.railway.app';
 
 export default function TeacherLogin() {
   const router = useRouter();

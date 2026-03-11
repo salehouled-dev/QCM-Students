@@ -6,7 +6,7 @@ import { PenTool, Calendar, LogOut, Loader2, Award } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://qcm-students-production.up.railway.app';
 
 type Quiz = {
   id: string;

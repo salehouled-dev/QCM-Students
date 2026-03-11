@@ -7,7 +7,7 @@ import { Plus, Users, Calendar, ArrowRight, Loader2, FileText, LogOut } from 'lu
 import axios from 'axios';
 
 // The standard base URL for local testing, can be moved to env later
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://qcm-students-production.up.railway.app';
 
 type Quiz = {
   id: string;

@@ -36,7 +36,7 @@ app.get('/api/health', (req, res) => {
 // === MOCK AUTHENTICATION ===
 app.post('/api/auth/teacher', (req, res) => {
   const { password } = req.body;
-  if (password === 'teacher123') {
+  if (password === 'teacher123*') {
     return res.json({ success: true, token: 'fake-teacher-token' });
   }
   return res.status(401).json({ error: 'Mot de passe incorrect' });
